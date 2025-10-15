@@ -28,13 +28,4 @@ app.use('/api/chat', chatRouter)
 app.use('/api/message', messageRouter)
 app.use('/api/credit', creditRouter)
 
-const PORT = process.env.PORT || 3000
-
-// In traditional servers (like when you run node server.js on your local machine or VPS), you must manually start the server by calling:
-// I am facing trouble in this part ,So that i will take this part in comment
-
-// app.listen(PORT, ()=>{
-//     console.log(`Server is running on port ${PORT}`)
-// })
-
 export default app;
